@@ -24,6 +24,7 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-white);
+    overflow-x: hidden;
 }
 
 html {
@@ -116,11 +117,12 @@ html {
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     box-shadow: var(--shadow);
 }
 
@@ -559,8 +561,8 @@ html {
     }
 
     .profile-img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .hero-title {
